@@ -482,3 +482,27 @@
 (print (funcall gen))
 (print (funcall gen))
 (print (funcall gen))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;12
+; Определите функцию, которая возвращает в качестве значения свой вызов.
+
+(defun get-func-call ()
+   '(get-func-call)
+)
+
+;Test cases
+(print (get-func-call))
+(print (eval (get-func-call)))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;14
+; Определите функцию, которая возвращает в качестве значения форму своего определения (DEFUN).
+
+(defun get-def-form ()
+   '(defun get-def-form ())
+)
+
+;Test cases
+(print (get-def-form))
