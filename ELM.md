@@ -199,3 +199,8 @@ view model =
     , button [ onClick Increment ] [ text "+" ]
     ]
 ```
+
+## Ссылки
+[Оф. сайт](https://elm-lang.org/)
+[Официальная документация](https://guide.elm-lang.org/)
+[Примеры](https://elm-lang.org/examples)
